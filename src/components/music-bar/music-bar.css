@@ -1,0 +1,8 @@
+.btn {
+  @apply w-12 h-12 font-bold rounded-full hover:scale-110 active:scale-95 text-base m-1 px-4;
+  background-color: theme('colors.primary.dark');
+}
+
+.btn-primary {
+  background-color: theme('colors.white');
+}
